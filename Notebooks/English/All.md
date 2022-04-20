@@ -1,15 +1,9 @@
 <p align="center">
   <img src="_examples_javascript_beginners/assets/images/javascript_logo_4.png" alt="JavaScript logo" title="JavaScript for beginners" width="200" />
 </p>
-    
-JavaScript for Beginners
-=====================
-JavaScript tutorial for Beginners
-=====================
-JavaScript basics and fundamentals for all
-=====================
 
-Description
+# All
+
 ---------------------
 
 JavaScript is a `scripting language of the web` that allows you to do/add Interactivity with User-Events, implement Conditions and Validations, Dynamic updates in a Web Page, etc.. In this practical course will learn JavaScript basics-programming fundamentals from scratch. We Will start with what is JavaScript? its uses, history, how to write JavaScript, etc. It will also cover various programming building blocks like variable, functions, array, conditionals, objects, and many more.
@@ -17,7 +11,7 @@ JavaScript is a `scripting language of the web` that allows you to do/add Intera
 Topics (separate with spaces)
 ---------------------
 
-Add topics to categorize your repository and make it more discoverable: 
+Add topics to categorize your repository and make it more discoverable:
 
 - javascript-programming-language
 - javascript-language-fundamentals
@@ -33,9 +27,9 @@ Add topics to categorize your repository and make it more discoverable:
 - objects
 - events
 - dom-document-object-model
-- webdevelopment
+- web-development
 - front-end-development
-- webprogramming
+- web-programming
 - plain-javascript
 - vanilla-javascript
 - javascript-typescript-es6
@@ -44,7 +38,8 @@ Prerequisites for current course / What you need to know
 ---------------------
 
 To move forward with JavaScript you just need basic knowledge of XHTML/HTML. Here, you will learn how easy it is to add interactivity to a web page using JavaScript. But, before we begin, make sure that you have some working knowledge and/or general understanding of:
-- Good working knowledge of HyperText Markup Language (HTML) [HTML5 Essentials](https://github.com/yilmazchef/html-notebooks) and 
+
+- Good working knowledge of HyperText Markup Language (HTML) [HTML5 Essentials](https://github.com/yilmazchef/html-notebooks) and
 - Its good to know [CSS3 Fundamentals](https://github.com/yilmazchef/css-notebooks)
 
 Section 01. Course Introduction
@@ -66,7 +61,7 @@ Section 02. Introducing JavaScript
 02.01. Importance
 ---------------------
 
-### 3 pillars / core Languages/Technologies used for Front End Web Design/Development:
+### 3 pillars / core Languages/Technologies used for Front End Web Design/Development
 
 1. **HTML (HyperText Markup Language)** - Markup language, Essential Page Structure/Content, Readable and convey structure to a user, Text Layout Model, page Mark-up, Text, Tags, Data, details for pages, Images, Tables, Anchor Links, Forms
     - HTML is an acronym stands for `HyperText Markup Language` which is used for creating `web pages and web applications`
@@ -79,6 +74,7 @@ Section 02. Introducing JavaScript
     - JavaScript is a `scripting language of the web` that allows you to do Interactivity with User-Events, implement Conditions and Validations, Dynamic updates in a Web Page, etc.
 
 > **Syntax & Example**: `02.01.js.intro.html`
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -156,10 +152,10 @@ Now-a-days with the help of `Node (Node.js)` JavaScript is used for `Back-end (S
 
 - A high-level programming language that is interpreted by another program at runtime rather than compiled by the computer's processor as other programming languages
 - A programming language designed for integrating and communicating with other programming languages
-    - Popular scripting languages are `JavaScript, VBScript, PHP, Perl, Python, Ruby, ASP`
-    - Since a scripting language is normally used in conjunction with another programming language, they are often found and used alongside `HTML, Java or C++`
+  - Popular scripting languages are `JavaScript, VBScript, PHP, Perl, Python, Ruby, ASP`
+  - Since a scripting language is normally used in conjunction with another programming language, they are often found and used alongside `HTML, Java or C++`
 - The simple difference between scripting language and programming language is: Scripting languages do not require the compilation step and are rather interpreted
-    - `C program` needs to be compiled before running whereas normally, a scripting language like `JavaScript or PHP` need not be compiled
+  - `C program` needs to be compiled before running whereas normally, a scripting language like `JavaScript or PHP` need not be compiled
 - Scripting is interpreted based language, whereas Java, C, C++, and others are compiler-based language
 
 ### What is a script?
@@ -169,29 +165,31 @@ Now-a-days with the help of `Node (Node.js)` JavaScript is used for `Back-end (S
 
 02.04. What can you do with JavaScript?
 ---------------------
+
 02.04. Use of JavaScript
 ---------------------
 
 For a long time, JavaScript is used only as a `Client Side Front End Development language` to build browser-based interactive web pages. But currently due to huge community support `(Node or Nide.js) JavaScript is multi-purpose language` and used to develop:
+
 - Full-fledged Enterprise Web Application
 - Full-blown Mobile Apps
 - Real-time Networking Apps (Chats, Audio/Video Streaming Services)
 - Games
 - Command Line Tools (CLI-Command Line Interface utilities)
 
-### 02.04.01. JavaScript is used in billions of Web pages/web apps to add interactivity, validate forms and much more:
+### 02.04.01. JavaScript is used in billions of Web pages/web apps to add interactivity, validate forms and much more
 
 - JavaScript gives HTML designers a `programming tool`
 - JavaScript can react to `events` (mouse click, hover (rollover, rollout), focus, blur)
 - JavaScript can be used to `validate` data (`Client-side validation`)
-- JavaScript can manipulate `HTML content` and `CSS styles` 
+- JavaScript can manipulate `HTML content` and `CSS styles`
 - Dynamic `drop-down menus`, HTML contents at run time/on the fly
 - Displaying live/current/dynamic `date and time (clocks)`
 - Displaying `pop-up windows` and `dialog boxes` (an `alert`, `confirm` and `prompt` dialog box)
 - Change the website's `behavior` and make it more `dynamic with advanced` web designs
 - Perform and `control transitions` and `animations`
 
-### However, there are more serious uses for javascript:
+### However, there are more serious uses for javascript
 
 - **Browser Detection** - Detecting the browser used by a visitor
 - **Cookies** - Storing information on the visitor's computer
@@ -205,38 +203,38 @@ JavaScript was originally designed and developed to run only in browsers. But no
 
 ### Common JavaScript Browser Engines
 
-| Browser                                      |   Engine                                  |
-| ---------------------------------------------|-------------------------------------------|
-| **Browser, Headless Browser, or Runtime**    | **JavaScript Engine**                     |
-| Mozilla                                      | Spidermonkey                              |
-| Safari**                                     | JavaScriptCore*                           |
-| IE and Edge                                  | Chakra                                    |
-| Chrome                                       | V8                                        |
-| TrifleJS                                     | V8                                        |
-| Node.js***                                   | V8                                        |
-| Io.js***                                     | V8                                        |
-| PhantomJS                                    | JavaScriptCore                            |
-| HTMLUnit                                     | Rhino                                     |
-| | |
+| Browser                                   | Engine                |
+| ----------------------------------------- | --------------------- |
+| **Browser, Headless Browser, or Runtime** | **JavaScript Engine** |
+| Mozilla                                   | Spidermonkey          |
+| Safari**                                  | JavaScriptCore*       |
+| IE and Edge                               | Chakra                |
+| Chrome                                    | V8                    |
+| TrifleJS                                  | V8                    |
+| Node.js***                                | V8                    |
+| Io.js***                                  | V8                    |
+| PhantomJS                                 | JavaScriptCore        |
+| HTMLUnit                                  | Rhino                 |
+|                                           |                       |
 
-02.06. Who are using JavaScript? 
+02.06. Who are using JavaScript?
 ---------------------
 
 - JavaScript is used by:
-    - Front-end Developer
-    - Back-end Developer
-    - Full-stack Developer
+  - Front-end Developer
+  - Back-end Developer
+  - Full-stack Developer
 
-- Big companies and brands build entire applications: 
-    - Netflix
-    - Walmart
-    - PayPal
-    - Microsoft
-    - Facebook (React.js)
-    - Google (Angular.js)
-    - Ebay
-    - Uber
-    - Groupon
+- Big companies and brands build entire applications:
+  - Netflix
+  - Walmart
+  - PayPal
+  - Microsoft
+  - Facebook (React.js)
+  - Google (Angular.js)
+  - Ebay
+  - Uber
+  - Groupon
 
 02.07. History of JavaScript
 ---------------------
@@ -250,29 +248,31 @@ JavaScript was originally designed and developed to run only in browsers. But no
 02.08. JavaScript Vs ECMAScript
 ---------------------
 
-| JavaScript                                  | ECMAScript                                  |
-| :-------------------------------------------|:--------------------------------------------|
-| JavaScript is `scripting programming language`        | ECMAScript is a `specification/standard`             |
-| JavaScript is invented by `Brandan Eich` at `Netscape`| ECMAScript standards defined by `ECMA (European Computer Manufacturers Association)` |
-| JavaScript is released in 1995                        | First ECMAScript standard published in 1997          |
-| JavaScript uses/follows ECMAScript specifications/standards | ECMAScript specification defines many new features for JavaScript |
-| | |
+| JavaScript                                                  | ECMAScript                                                                           |
+| :---------------------------------------------------------- | :----------------------------------------------------------------------------------- |
+| JavaScript is `scripting programming language`              | ECMAScript is a `specification/standard`                                             |
+| JavaScript is invented by `Brandan Eich` at `Netscape`      | ECMAScript standards defined by `ECMA (European Computer Manufacturers Association)` |
+| JavaScript is released in 1995                              | First ECMAScript standard published in 1997                                          |
+| JavaScript uses/follows ECMAScript specifications/standards | ECMAScript specification defines many new features for JavaScript                    |
+|                                                             |                                                                                      |
 
 02.09. Types of Script
 ---------------------
+
 02.09. Various Scripting languages
 ---------------------
+
 02.09. Client-Side Scripting Vs Server Side Scripting
 ---------------------
 
-| Client-Side Scripting                     | Server-Side Scripting                     |
-| ------------------------------------------|-------------------------------------------|
-| Instruction for web Browser               | Instruction for web Server                |
-| Client-side scripting is used when the user's browser already has all the code and the page is altered based on the user's input     | Server-side scripting is used to create dynamic pages based several conditions when the user's browser requests the server       |
-| Response from a client-side script is faster as compared to a server-side script because the scripts are processed on the local computer | Response from a server-side script is slower as compared to a client-side script because the scripts are processed on the remote computer (server) |
-| Client-side scripting languages such as JavaScript, VBScript, etc. are interpreted and executed by the web browser | Server-side scripting languages such as ASP, PHP, Java, Python, Ruby, etc. run on the webserver and the output sent back to the web browser in HTML format
-| **Example**: Javascript, VB script, ActionScript, HTML, XHTML etc.  | **Example**: ASP, JSP, PHP, ASP#.Net, Perl, Ruby, Python, CGI etc.
-| | |
+| Client-Side Scripting                                                                                                                    | Server-Side Scripting                                                                                                                                      |
+| ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Instruction for web Browser                                                                                                              | Instruction for web Server                                                                                                                                 |
+| Client-side scripting is used when the user's browser already has all the code and the page is altered based on the user's input         | Server-side scripting is used to create dynamic pages based several conditions when the user's browser requests the server                                 |
+| Response from a client-side script is faster as compared to a server-side script because the scripts are processed on the local computer | Response from a server-side script is slower as compared to a client-side script because the scripts are processed on the remote computer (server)         |
+| Client-side scripting languages such as JavaScript, VBScript, etc. are interpreted and executed by the web browser                       | Server-side scripting languages such as ASP, PHP, Java, Python, Ruby, etc. run on the webserver and the output sent back to the web browser in HTML format |
+| **Example**: Javascript, VB script, ActionScript, HTML, XHTML etc.                                                                       | **Example**: ASP, JSP, PHP, ASP#.Net, Perl, Ruby, Python, CGI etc.                                                                                         |
+|                                                                                                                                          |                                                                                                                                                            |
 
 02.10. Prerequisites of using HTML and JavaScript
 ---------------------
@@ -280,19 +280,19 @@ JavaScript was originally designed and developed to run only in browsers. But no
 ### Tools for building web sites-web pages/writing HTML, CSS & JavaScript
 
 1. **Text Editor/HTML Editor/Code Editor/Visual Code Editor** - `NotePad, NotePad++, SublimeText, Atom, Brackets, Coda, Visual Studio Code, DreamWeaver` etc.
-    - Just visit registered website of any of your favorite editor, download and install it (like **Visual Studio Code** = https://code.visualstudio.com)
+    - Just visit registered website of any of your favorite editor, download and install it (like **Visual Studio Code** = <https://code.visualstudio.com>)
     - A JavaScript file (.js) is a text file itself consists of JavaScript code/statements, so to create/modify a JavaScript file we can use any text editors
 
 2. **Browsers - To view output of .html pages with .js files** - `Google Chrome, Mozilla Firefox, Internet Explorer, Safari` etc.
     - Once the .html/.htm file created and saved, we can create a .js file and link within HTML and then we can see its output in any latest web browser
 
-3. **JavaScript Output / Debugging Tool (Developer console)** - 
+3. **JavaScript Output / Debugging Tool (Developer console)** -
     - alert() or window.alert()
     - console.log()
     - Google Chrome / Safari – `Developer Tools Inspect` / Inpsect element (in browser -> Right Click on page -> choose `Inspect / Inspect Element -> Console Tab`
     - Mozilla FireFox – `Firebug`
 
-> **Note**: <br/> 
+> **Note**: <br/>
 Use `F12` key on the keyboard to open the `developer tools` then click on the `Console Tab`, OR on empty area in browser page `Right Click -> Inspect (Developer Tool) -> Console Tab`. Here You can write basic JavaScript statements and/or valid JavaScript code directly in browser console panel/tab and get the output
 
 <p>
@@ -321,6 +321,7 @@ Section 03. JavaScript Getting Started
 
 03.01. How to write Javascript?
 ---------------------
+
 03.01. JavaScript in HTML
 ---------------------
 
@@ -331,9 +332,10 @@ Section 03. JavaScript Getting Started
   - So the best practice is to place/add the `<script>.....</script>` at the bottom/end of `body` tag/section ie. just before the closing `</body>` tag
 
 > **Note**: <br/>
-JavaScript is the default scripting language in HTML. The old HTML standard attributes like `type="text/javascript"` and `language="javascript"` no longer required in modern browser 
+JavaScript is the default scripting language in HTML. The old HTML standard attributes like `type="text/javascript"` and `language="javascript"` no longer required in modern browser
 
 > **Syntax & Example**: `03.01.js.script.tag.html`
+
 ```html
 <head>
 
@@ -376,10 +378,12 @@ JavaScript is the default scripting language in HTML. The old HTML standard attr
 
 03.02. Where to write JavaScript in HTML?
 ---------------------
+
 03.02. Where to embed include write put JavaScript in HTML?
 ---------------------
 
-### JavaScript provides 3 places to write the JavaScript code in our webpage:
+### JavaScript provides 3 places to write the JavaScript code in our webpage
+
 1. Inside the HEAD section
 2. Inside the BODY section
 3. External JavaScript .js file (separation of concern)
@@ -389,7 +393,8 @@ JavaScript is the default scripting language in HTML. The old HTML standard attr
 - JavaScript programs/code/statements can be placed in the `<head>` section of an HTML page
 - As each `<script>.....</script>` tag blocks the page rendering process until it has fully downloaded and executed the JavaScript code so placing them in the `head section (<head> element` of the document without any valid reason will significantly impact your website performance
 
-> **Syntax & Example**: `03.02.01.js.head.html` 
+> **Syntax & Example**: `03.02.01.js.head.html`
+
 ```html
 <head>
 
@@ -409,6 +414,7 @@ JavaScript is the default scripting language in HTML. The old HTML standard attr
 - As blocking nature of `<script>.....</script>` tag ideally, scripts should be placed at the end of the `body section`, just before the `closing </body> tag`, it will make your web pages load faster since it prevents obstruction of initial page rendering
 
 > **Syntax & Example**: `03.02.02.js.body.html`
+
 ```html
 <body>
 
@@ -432,11 +438,11 @@ JavaScript is the default scripting language in HTML. The old HTML standard attr
 - We must have to `extract and separate` our JavaScript behavior code from our HTML markup code
 - A simple thumb-rule is if we have a lot of JavaScript code, we can put it into a separate file
 - We can use/add/attach an external JavaScript file by using `<script>` tag with `src (source)` attribute:
-    - ```<script src="path/scriptfile.js"></script>```
-    - One can provide a `full URL (absolute path)` or `relative path` from the current page
+  - ```<script src="path/scriptfile.js"></script>```
+  - One can provide a `full URL (absolute path)` or `relative path` from the current page
 - We can create a single external JavaScript file and embed it in many/any HTML page which provide `code re-usability`
 
-### 03.02.04. Advantages of External JavaScript 
+### 03.02.04. Advantages of External JavaScript
 
 - It separates HTML and JavaScript code (separation of concern)
 - Code re-usability
@@ -447,6 +453,7 @@ JavaScript is the default scripting language in HTML. The old HTML standard attr
 Usually, when an external JavaScript file is downloaded for the first time, it is stored in the browser's cache (like images and style sheets), so it won't need to be get downloaded multiple times from the web server that makes the web pages load faster/quickly.
 
 > **Syntax & Example - `.html file`**: `03.02.03.js.external.html`
+
 ```html
 <body>
 
@@ -459,6 +466,7 @@ Usually, when an external JavaScript file is downloaded for the first time, it i
 ```
 
 > **Syntax & Example - `.js file`**: `03.02.03.script.js`
+
 ```javascript
 // external js file
 // Write all JavaScript code here
@@ -470,6 +478,7 @@ document.write('<h2>welcome to JavaScript written in external file</h2>');
 
 03.03. JavaScript Code structure
 ---------------------
+
 The syntax of JavaScript is the `set of rules` that define a correctly structured JavaScript program. Let's study some of the building blocks of JavaScript code:
 
 ### 03.03.01. JavaScript Statements
@@ -483,7 +492,7 @@ The syntax of JavaScript is the `set of rules` that define a correctly structure
 - JavaScript ignores extra line breaks and white spaces
 - JavaScript is case sensitive language (VB, Pascal, HTML are case insensitive)
 - JavaScript is interpreted not compiled (write and handed over to the web browser)
-- All statement in JavaScript should be terminated by a `Semicolon;` 
+- All statement in JavaScript should be terminated by a `Semicolon;`
 
 > **Note**: <br/>
 JavaScript statements are composed of: **`Values, Operators, Expressions, Keywords, and Comments`**
@@ -520,6 +529,7 @@ Take care/precautions while writing variable and function names in JavaScript
 - An often occurrence of a code block in JavaScript is a JavaScript `function`
 
 > **Syntax & Example**: `03.03.05.script.js`
+
 ```javascript
 // external js file
 // Write all JavaScript code here
@@ -547,20 +557,22 @@ showTotal();
 
 Usually, JavaScript commands/statements start with a `specific keyword` which defines what `action/function` should the browser will perform/do:
 
-| Keyword           | Keyword          |Keyword           | Keyword          |Keyword           |
-| ------------------|------------------|------------------|------------------|------------------|
-| break             | do ... while     | if ... else      | try ... catch    | const            |
-| continue          | for              | return           | var              | class            |
-| debugger          | function         | switch           | let              | import           |
-| | | | | | 
+| Keyword  | Keyword      | Keyword     | Keyword       | Keyword |
+| -------- | ------------ | ----------- | ------------- | ------- |
+| break    | do ... while | if ... else | try ... catch | const   |
+| continue | for          | return      | var           | class   |
+| debugger | function     | switch      | let           | import  |
+|          |              |             |               |         |
 
 ### 03.04.01. Reserved Keywords
 
 JavaScript has several reserved keywords. These are the words that you cannot use as identifiers (variable names, function names, and loop labels) in your JavaScript programs. The following list shows the keywords that are reserved in `ECMAScript 6`. It also includes keywords that are `reserved for future` as well as keywords that are `disallowed in strict mode`.
-- arguments, await, break, case, catch, class, const, continue, debugger, default, delete, do, else, enum, eval, export, extends, false, finally, for, function, if, implements, import, in, instanceof, interface, let, new, null, package, private, protected, public, return, static, super, switch, this, throw, true, try, typeof, var, void, while, with, yield, 
+
+- arguments, await, break, case, catch, class, const, continue, debugger, default, delete, do, else, enum, eval, export, extends, false, finally, for, function, if, implements, import, in, instanceof, interface, let, new, null, package, private, protected, public, return, static, super, switch, this, throw, true, try, typeof, var, void, while, with, yield,
 
 03.05. Comments
 ---------------------
+
 - The comments are a meaningful way to `deliver the message (description to code)` for others/for future reference and to understand/follow the code statements/lines
 - Comments are special lines written for other developers as a reference purpose and browser ignores while interpreting
 - It is used to add information about the code, warnings or suggestions so that end-user can easily interpret the code (`Why and How of code/program/logic`)
@@ -573,6 +585,7 @@ JavaScript has several reserved keywords. These are the words that you cannot us
 ### 03.05.01. Types of JavaScript Comments
 
 There are two types of comments in JavaScript:
+
 1. Single-line Comments
 2. Multi-line Comments
 
@@ -584,6 +597,7 @@ There are two types of comments in JavaScript:
 - Single-line comments do not need closure/closing
 
 > **Syntax & Example**: `03.05.script.js`
+
 ```javascript
 // external js file
 // Write all JavaScript code here
@@ -600,11 +614,12 @@ var lastName = 'Jayaswal'; // variable to store lastName
 - Multi-line comments usually comment out a block of code
 - Multi-line comments in JavaScript can comment on bigger parts (a few lines) of code
 - Multi-line comments are more convenient as it can be used to comment single as well as multi-line comments
-- Multiline comments start with `forward slash and an asterisk, /* and also end with an asterisk and a forward slash */`:  /* multi-line comment */
+- Multiline comments start with `forward slash and an asterisk, /* and also end with an asterisk and a forward slash */`:  /*multi-line comment*/
 - Multi-line comments need closing
 - Multi-line comments are more often used for `formal documentation`
 
-> **Syntax & Example**: `03.05.script.js` 
+> **Syntax & Example**: `03.05.script.js`
+
 ```javascript
 /* show alert box */
 alert('Welcome to JavaScript!');
@@ -621,6 +636,7 @@ Section 04. JavaScript Language Fundamentals
 
 04.01. Generating Output
 ---------------------
+
 - JavaScript does not have any `display or built-in print` functions
 - Many times we may need to generate output from your JavaScript code like `see the value of a variable`, or `write a message to browser console` to help you `debug an issue` in your running JavaScript code, and so on
 - That is why you have to use the JavaScript output function to generating output `(browser window or browser console dialog boxes, writing output into an HTML element, etc.)`
@@ -634,12 +650,14 @@ Section 04. JavaScript Language Fundamentals
 4. Write into an element of HTML / Inserting Output Inside an HTML Element with `innerHTML`
 
 #### 04.01.01. Displaying Output in Alert Dialog Boxes: alert() or window.alert()
-- One can use `alert dialog boxes` to display the message or output data to the user 
+
+- One can use `alert dialog boxes` to display the message or output data to the user
 - An alert dialog box is created using the `alert() or window.alert()` method
 - A small pop-up box appears with a closing button to close alert-box
 - This method is great for short and rapid informative messages which can be instantly closed
 
 > **Syntax & Example**: `04.01.01.script.js`
+
 ```javascript
 // external js file
 // Write all JavaScript code here
@@ -655,6 +673,7 @@ window.alert('We are learning JavaScript');
 - This is a simple, easy but very powerful method for generating detailed output
 
 > **Syntax & Example**: `04.01.02.script.js`
+
 ```javascript
 // external js file
 // Write all JavaScript code here
@@ -672,6 +691,7 @@ Use `F12` key on the keyboard to open the `developer tools` then click on the `c
 - Programmers do ues document.write() for `testing purposes`
 
 > **Syntax & Example**: `04.01.03.script.js`
+
 ```javascript
 // external js file
 // Write all JavaScript code here
@@ -683,12 +703,13 @@ document.write('We are learning JavaScript');
 #### 04.01.04. Inserting Output Inside an HTML Element: innerHTML
 
 - We can write or insert output inside an HTML element using the element's `innerHTML` property
-- First we need to select the element using a method such as `document.getElementById(id)` 
+- First we need to select the element using a method such as `document.getElementById(id)`
 
 > **Note**: <br/>
 HTML element manipulating is fully dependent on JavaScript DOM manipulation concepts
 
 > **Syntax & Example**: `04.01.04.script.js`
+
 ```javascript
 /// external js file
 // Write all JavaScript code here
@@ -711,15 +732,15 @@ Section 05. Variables
 Variables are one of the most fundamental concepts in JavaScript and other all programming languages of the world.
 
 - A variable is `container to store/hold the data/information`
-- Developers/Programmers use Variable to `store/hold the data/information temporarily` in computer memory 
+- Developers/Programmers use Variable to `store/hold the data/information temporarily` in computer memory
 - A variable is a kind of data holder where we can store some value for programming or calculation purpose
 - A JavaScript variable is simply a `name of the storage location (named containers/named storage)` for data
-- Variables are symbolic names for values 
-- Variables are used to store data of different types like a string of text, numbers, boolean values like true/false, an array of data, etc. 
+- Variables are symbolic names for values
+- Variables are used to store data of different types like a string of text, numbers, boolean values like true/false, an array of data, etc.
 - The data or value stored in the variables can be set, updated, and retrieved whenever needed
 - Variables are declared using the keyword `var` keyword
 - The `assignment operator (=)` is used to assign value to a variable, like this: `var varName = value;` or `var firstName = 'JavaScript';`
-- By default value of variable defined in JavaScript is `undefined` (variable is defined but value not assigned: `var firstName;` or `let lastName; console.log(firstName, lastName); ` // undefined)
+- By default value of variable defined in JavaScript is `undefined` (variable is defined but value not assigned: `var firstName;` or `let lastName; console.log(firstName, lastName);` // undefined)
 
 <hr/>
 
@@ -732,11 +753,12 @@ Variables are one of the most fundamental concepts in JavaScript and other all p
 In ES6 `'let'` and `'const'` keywords are used to defined variables
 
 > **Note**: <br/>
-As a best practice of ES6, from now onwards variables must be define with `let` keyword: `let techName = 'JavaScript' ; `
+As a best practice of ES6, from now onwards variables must be define with `let` keyword: `let techName = 'JavaScript' ;`
 
 <hr/>
 
 > **Syntax & Example**: `05.01.script.js`
+
 ```javascript
 // variables defined to hold different types of data
 var techName = 'JavaScript'; // String literal 
@@ -748,12 +770,14 @@ console.log('Learning '+techName+version);
 
 05.02. Declaring variable without a value
 ---------------------
+
 05.02. Creating a variable without a value
 ---------------------
 
 Variables can also be declared without having any initial values assigned to them. This is useful for variables that are supposed to hold values like user inputs, calculations, status updates, etc.
 
 > **Syntax & Example**: `05.01.script.js`
+
 ```javascript
 // Declaring Variables
 var techName;
@@ -784,6 +808,7 @@ console.log('Welcome '+userName);
 We can also `declare multiple variables` and set their initial values in a single statement, each variable is `separated by comma`.
 
 > **Syntax & Example**: `05.01.script.js`
+
 ```javascript
 // Declaring multiple variables
 var techName = 'JavaScript', version = 6, isDone = true;
@@ -811,10 +836,11 @@ console.log('I am ' + firstName + ' ' + lastName);
 
 05.04. Variable Naming Conventions
 ---------------------
+
 05.04. Variable Naming Conventions (Identifiers)
 ---------------------
 
-All JavaScript variables must be `identified`/referred/defined/named with `unique names`, called as `identifiers`. The naming rules in JavaScript are not much different from any other programming language. 
+All JavaScript variables must be `identified`/referred/defined/named with `unique names`, called as `identifiers`. The naming rules in JavaScript are not much different from any other programming language.
 
 - There are some rules while declaring/naming a JavaScript variable (also known as `identifiers`)
   - Identifiers are `simply names` in JavaScript
@@ -826,7 +852,7 @@ All JavaScript variables must be `identified`/referred/defined/named with `uniqu
 - A variable name must `start with a letter, underscore (_), or dollar sign ($)`
   - **Example**: var firstName, var _firstName, var $firstName;
 - Names can contain letters, digits, underscores, and dollar signs
-  - **Example**: var $num_total1; 
+  - **Example**: var $num_total1;
 - A variable name `cannot start with a number or special characters`
   - **Example**: var 1num_total, var .num_total
 - A variable name `cannot contain spaces`
@@ -834,7 +860,7 @@ All JavaScript variables must be `identified`/referred/defined/named with `uniqu
 - A variable Names are `case sensitive`
   - **Example**: var firstName='Dinanath'; and var FirstName='Dinanath'; here `firstName & FirstName` are different ie. two different variable
 - A variable name cannot be a `JavaScript keyword or a JavaScript reserved word`
-   - **Example**: var var; var switch; var for; var true;
+  - **Example**: var var; var switch; var for; var true;
 - One should Always give `meaningful/descriptive names` to variables
 - for naming the variables that contain multiple words, `camelCase` method is commonly used (camelCase is the default method for identifier naming)
 
@@ -842,9 +868,10 @@ All JavaScript variables must be `identified`/referred/defined/named with `uniqu
 In the programming world, there have been two most popular methods/mechanism of writing multiple words identifiers: (Underscore, Camel Case)
 
 1. **Underscore**: first_name, last_name, date_of_birth, is_passed, native_place
-2. **Camel Case:**: firstName, lastName, dateOfBirth, isPassed, nativePlace  OR <br/> : FirstName, LastName, DateOfBirth, IsPassed, NativePlace 
+2. **Camel Case:**: firstName, lastName, dateOfBirth, isPassed, nativePlace  OR <br/> : FirstName, LastName, DateOfBirth, IsPassed, NativePlace
 
 > **Syntax & Example**: `05.04.script.js`
+
 ```javascript
 // variables defined to hold different types of data
 var _firstName = 'JavaScript';
@@ -861,6 +888,7 @@ window.alert('variables details: ' +  _firstName + ' ' + $version + ' ' + $num_t
 ---------------------
 
 The scope of a variable is the region/coverage of your program in which it is defined and exist/available. JavaScript variables have two scopes:
+
 1. Local Variables
 2. Global Variables
 
@@ -875,6 +903,7 @@ The scope of a variable is the region/coverage of your program in which it is de
 In the function body, a `local variable takes precedence` over a global variable with the same name.
 
 > **Syntax & Example**: `05.05.01.script.js`
+
 ```javascript
 // global variable
 var globalName = 'Global';
@@ -898,11 +927,12 @@ window.alert(localName);
 
 #### 05.05.02. Global Variables
 
-- A variable `declared outside the function/at the root` or declared `with window object` is known as a global variable 
-- A JavaScript global variable is accessible from any function 
+- A variable `declared outside the function/at the root` or declared `with window object` is known as a global variable
+- A JavaScript global variable is accessible from any function
 - A global variable has a global scope which means it can be defined and accessible anywhere in JavaScript code/program
 
 > **Syntax & Example**: `05.05.02.script.js`
+
 ```javascript
 // global variable
 var globalName = 'Global';
@@ -929,19 +959,22 @@ window.alert('global variable from outside function: ' + window.globalVersion);
 
 05.06. The let and const keywords ES6
 ---------------------
+
 ES6 introduces two new keywords `let` and `const` for declaring variables. The `var, let and const` keywords are almost the same, just a few differences with the scope.
 
-- In older programs` var` is used a lot which declares a variable `(function-scoped variables)`, but in a slightly different `old` way, with scope issues 
-- Both `let` and `const` keywords declare variables, `scoped at block-level ({})` 
+- In older programs`var` is used a lot which declares a variable `(function-scoped variables)`, but in a slightly different `old` way, with scope issues
+- Both `let` and `const` keywords declare variables, `scoped at block-level ({})`
 - Block scoping means that a new scope is created `between a pair of curly brackets {}`
 
 ### 05.06.01. The let Keyword
 
 `ES6` introduces the new `let` keyword for declaring variables. Prior to ES6, the only way to declare a variable in JavaScript was the var keyword. Let's see what's the difference:
+
 - Variables declared with the `var` keyword are `function-scoped` and can be `hoisted` at the top within its scope
 - Variables declared with `let` keyword are `block-scoped ({})` and they are not hoisted
 
 > **Syntax & Example**: `05.06.01.script.js`
+
 ```javascript
 // traditional var syntax
 var techName1 = 'JavaScript';
@@ -971,7 +1004,8 @@ console.log('outside: ' + version2);  // undefined
 
 ### 05.06.02. The const Keyword
 
-`ES6` introduces the new `const` keyword for declaring variables. 
+`ES6` introduces the new `const` keyword for declaring variables.
+
 - Use `const` to declare a constant `(read-only / unchanging)` variable
 - Constants are `read-only`, you `cannot reassign new values` to them
 - In Programm/logic when the variable will never change, they can be declared as `const`
@@ -980,6 +1014,7 @@ console.log('outside: ' + version2);  // undefined
 - However, you can change `object properties` or `array elements`
 
 > **Syntax & Example**: `05.06.02.script.js`
+
 ```javascript
 // traditional var syntax
 var PI1 = 3.14;
@@ -998,12 +1033,13 @@ PI2 = 100; // error
 ```
 
 Section 06. Data types
-===================== 
+=====================
 
 06.01. Data types
 ---------------------
 
 A variable in JavaScript can contain `any type of data`. Data types specify what `kind of data` can be stored and manipulated within the variable in a program. In JavaScript, different data types are available to hold different types of values/data. There are `two main categories/types` of data types in JavaScript:
+
 1. Primitive (Primary or Value) data type
     - String
     - Number
@@ -1018,6 +1054,7 @@ A variable in JavaScript can contain `any type of data`. Data types specify what
 
 06.02. Primitive data type
 ---------------------
+
 06.02. Primitive, Primary or Value data type
 ---------------------
 
@@ -1025,14 +1062,14 @@ Primitive data types can `hold only one value at a time`. Primitives are `compar
 
 There are different types of primitive data types in JavaScript. They are as follows:
 
-| Data Type       | Description                                                                 |
-| ----------------|-----------------------------------------------------------------------------|
-| String          | represent textual data. e.g. "welcome" or 'to javascript'                   |
-| Number          | represents numeric values e.g. 10, 100.29                                   |
-| Boolean         | represents boolean value either false or true                               |
-| Undefined       | represents an undefined value (a variable declared but value not assigned)     |
-| Null            | represents null i.e. no value at all                                        |
-| | |
+| Data Type | Description                                                                |
+| --------- | -------------------------------------------------------------------------- |
+| String    | represent textual data. e.g. "welcome" or 'to javascript'                  |
+| Number    | represents numeric values e.g. 10, 100.29                                  |
+| Boolean   | represents boolean value either false or true                              |
+| Undefined | represents an undefined value (a variable declared but value not assigned) |
+| Null      | represents null i.e. no value at all                                       |
+|           |                                                                            |
 
 ### 06.02.01. String
 
@@ -1050,7 +1087,7 @@ var lastName = 'Script';
 
 - The number data type simply defined without quotes is used to represent positive or negative numbers with or without a decimal place
 - Many mathematical operations can be done on numbers, e.g. `multiplication *, division /, addition +, subtraction`, and so on
-- **Example**: 
+- **Example**:
 
 ```js
 var age = 25; 
@@ -1062,7 +1099,7 @@ var id = 1;
 - The Boolean data type can hold only two values: `true or false`
 - true = ON / yes / correct / 1, false = OFF / no, incorrect / 0
 - Boolean data types is often used in `conditional testing` of code
-- **Example**: 
+- **Example**:
 
 ```js
 var isDone = true; 
@@ -1075,7 +1112,7 @@ var isMarried = false;
 - The undefined data type can only have one value-the special value undefined
 - A Variable has been declared, but `not assigned a value`
 - A variable `without a value`, The type is also undefined
-- **Example**: 
+- **Example**:
 
 ```js
 var firstName;
@@ -1087,7 +1124,7 @@ var country;
 - A null value means that there is no value
 - The special value which represents `“ nothing”, “empty” or “value unknown”`
 - It is not equivalent to an empty string ('' or ' ', "", " "), it is simply nothing
-- **Example**: 
+- **Example**:
 
 ```js
 var firstName = null;
@@ -1096,6 +1133,7 @@ var id = null;
 
 06.03. Non-primitive data type
 ---------------------
+
 06.03. Non-primitive, Reference or Composite data type
 ---------------------
 
@@ -1106,27 +1144,29 @@ var id = null;
 
 There are different types of non-primitive data types in JavaScript. They are as follows:
 
-| Data Type       | Description                                                           |
-| ----------------|-----------------------------------------------------------------------|
-| Array           | represents a group of similar value (multiple values in one variable) |
-| Object          | represents an instance through which we can access members (property & value) |
-| Function        | represents function (bunch/block of line to execute once)             |
-| | |
+| Data Type | Description                                                                   |
+| --------- | ----------------------------------------------------------------------------- |
+| Array     | represents a group of similar value (multiple values in one variable)         |
+| Object    | represents an instance through which we can access members (property & value) |
+| Function  | represents function (bunch/block of line to execute once)                     |
+|           |                                                                               |
 
 06.04. JavaScript has Dynamic Types
 ---------------------
 
 We have two types of programming languages:
+
 1. Static languages
     - Declare a variable, the type of the variable is set and it cannot be changed in the future
 2. Dynamic languages
     - Variable can change at run time (one variable can store different types of value as per requirement, we again assign any value any time as per logic, requirements)
 
-- A JavaScript `variable can contain/hold any data ie. any type of data`, A variable at one moment can be a number and at another moment be a string, boolean 
+- A JavaScript `variable can contain/hold any data ie. any type of data`, A variable at one moment can be a number and at another moment be a string, boolean
 - It simply means that `same variable can be used to hold different data types`
 - JavaScript is a dynamic type language, means you don't need to specify a type of the variable because it is dynamically used by JavaScript engine
 
 > **Syntax & Example**: `06.04.script.js`
+
 ```javascript
 let name = 'JavaScript';
 name = false;
@@ -1145,6 +1185,7 @@ alert(typeof(name));
 - It can be used with or without parentheses `(typeof(x)` or `typeof x`
 
 > **Syntax & Example**: `06.05.script.js`
+
 ```javascript
 // use typeof to find data type of variables
 // Strings
@@ -1192,6 +1233,7 @@ alert(typeof Symbol("dob")); // "symbol"
 
 06.06. Type conversion
 ---------------------
+
 06.06. typeof parseInt parseFloat
 ---------------------
 
@@ -1199,7 +1241,8 @@ alert(typeof Symbol("dob")); // "symbol"
 - In JavaScript as and when we take an `input in the form, its data type is a string by default`, so do any calculations we need to `parse` to `integer/int or the number`
 - Data type conversion can be either implicit (automatic) or explicit (forcefully/manually)
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```javascript
 // Number to String conversion
 let num1 = 100;
@@ -1266,7 +1309,8 @@ let curNumber = parseFloat('100.41');
 - Type coercion is the process of converting a value from one type to another (such as string to a number, object to boolean, and so on)
 - JavaScript engine converts the type as per its rules (implicit ie. automatic conversion of data type)
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```javascript
 const num1 = '20';
 const num1 = 10;
@@ -1277,10 +1321,11 @@ console.log(typeof sum);
 ```
 
 Section 07. Operators
-=====================   
+=====================
 
 07.01. What is the Operator?
 ---------------------
+
 - We know/use many operators since our initial school days, they are things like addition +, multiplication *, subtraction -, open-close round bracket ( ) or square bracket [ ]
 - Operators are symbols/keywords that tell the JavaScript engine to `perform some sort of actions`
 - JavaScript operators are symbols that are used to perform operations on operands
@@ -1289,11 +1334,13 @@ expressions to implement logic and algorithms
 
 > **Note**: <br/>
 Let us take a simple expression `var sum = 1 + 2`;
-- Here 1 and 2 are called `operands` and 
+
+- Here 1 and 2 are called `operands` and
 - `=` & `+` are called the `operator`
 - `= is the assignment` operator, `+ is the arithmetic` operator
 
 > **Syntax & Example**: `07.01.script.js`
+
 ```javascript
 // Lets take a look on simple expression 
 var sum = 1 + 2;
@@ -1304,6 +1351,7 @@ var sum = 1 + 2;
 ```
 
 **JavaScript supports the following types of operators**:
+
 1. Arithmetic Operators
 2. Assignment Operators
 3. Logical Operators
@@ -1319,19 +1367,20 @@ var sum = 1 + 2;
 
 JavaScript supports the following Arithmetic operators (List of Arithmetic operators):
 
-| Operators | Description                           | Example / Result                                |
-| ----------|---------------------------------------|-------------------------------------------------|
-| +         | Addition                              | 10 + 20 = 30 (Sum of num1 and num2)             |
-| -         | Subtraction                           | 20 - 10 = 10 (Difference of num1 and num2)      |
-| *         | Multiplication                        | 10 * 20 = 200 (Product of num1 and num2)        |
-| /         | Division                              | 20 / 10 = 2 (Quotient of num1 and num2)         |
-| %         | Modulus (Division Remainder)          | 20 % 10 = 0 (Remainder of num1 divided by num2) |
-| ++        | Increment                             | var num1 = 100; num1++; Now num1 = 11           |
-| --        | Decrement                             | var num1 = 100; num1--; Now num1 = 9            |
-| **        | Exponentiation (ES2016 / ES6)         | 2 ** 2 = 4 ; 2 ** 3 = 8 (Multiply num1 for num2 times)  |
-| | | |
+| Operators | Description                   | Example / Result                                       |
+| --------- | ----------------------------- | ------------------------------------------------------ |
+| +         | Addition                      | 10 + 20 = 30 (Sum of num1 and num2)                    |
+| -         | Subtraction                   | 20 - 10 = 10 (Difference of num1 and num2)             |
+| *         | Multiplication                | 10 * 20 = 200 (Product of num1 and num2)               |
+| /         | Division                      | 20 / 10 = 2 (Quotient of num1 and num2)                |
+| %         | Modulus (Division Remainder)  | 20 % 10 = 0 (Remainder of num1 divided by num2)        |
+| ++        | Increment                     | var num1 = 100; num1++; Now num1 = 11                  |
+| --        | Decrement                     | var num1 = 100; num1--; Now num1 = 9                   |
+| **        | Exponentiation (ES2016 / ES6) | 2 ** 2 = 4 ; 2 ** 3 = 8 (Multiply num1 for num2 times) |
+|           |                               |                                                        |
 
 > **Syntax & Example**: `07.02.script.js`
+
 ```javascript
 // Arithmetic operators
 var num1 = 10;
@@ -1359,17 +1408,18 @@ alert('Exponentiation ' + (num1 ** num2)); // (10 ** 4) = 10* 10 * 10 * 10 = 100
 
 JavaScript supports the following Assignment operators (List of Assignment operators):
 
-| Operators | Description                           | Example / Result                      |
-| ----------|---------------------------------------|---------------------------------------|
-| =         | Simple Assignment                     | 10 + 20 = 30; / var total = num1 + num2; (assigns a value to the variable)   |
-| +=        | Add and assign                        | var num1 = 10; num1 += 20; Now num1 = 30 (assigns and adds value to the variable, num1 += 20; is equivalent to num1 = num1 + 20;) |
-| -=        | Subtract and assign                   | var num1 = 10; num1 -= 5; Now num1 = 5 (assigns and subtract value to the variable, num1 -= 5; is equivalent to num1 = num1 - 5;) |
-| *=        | Multiply and assign                   | var num1 = 10; num1 *= 5; Now num1 = 50 (assigns and multiply value to variable, num1 *= 5; is equivalent to num1 = num1 * 5;)    |     
-| /=        | Divide and assign                     | var num1 = 10; num1 /= 5; Now num1 = 2 (assigns and divide value to the variable, num1 /= 5; is equivalent to num1 = num1 / 5;)   |
-| %=        | Modulus and assign                    | var num1 = 10; num1 %= 5; Now num1 = 0 (assigns and Modulus value to the variable, num1 %= 5; is equivalent to num1 = num1 % 5;)  |
-| | | | 
+| Operators | Description         | Example / Result                                                                                                                  |
+| --------- | ------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| =         | Simple Assignment   | 10 + 20 = 30; / var total = num1 + num2; (assigns a value to the variable)                                                        |
+| +=        | Add and assign      | var num1 = 10; num1 += 20; Now num1 = 30 (assigns and adds value to the variable, num1 += 20; is equivalent to num1 = num1 + 20;) |
+| -=        | Subtract and assign | var num1 = 10; num1 -= 5; Now num1 = 5 (assigns and subtract value to the variable, num1 -= 5; is equivalent to num1 = num1 - 5;) |
+| *=        | Multiply and assign | var num1 = 10; num1 *= 5; Now num1 = 50 (assigns and multiply value to variable, num1 *= 5; is equivalent to num1 = num1* 5;)    |
+| /=        | Divide and assign   | var num1 = 10; num1 /= 5; Now num1 = 2 (assigns and divide value to the variable, num1 /= 5; is equivalent to num1 = num1 / 5;)   |
+| %=        | Modulus and assign  | var num1 = 10; num1 %= 5; Now num1 = 0 (assigns and Modulus value to the variable, num1 %= 5; is equivalent to num1 = num1 % 5;)  |
+|           |                     |                                                                                                                                   |
 
 > **Syntax & Example**: `07.03.script.js`
+
 ```javascript
 // Assignment operators
 var num1 = 10;
@@ -1401,14 +1451,15 @@ console.log(num1); // 30
 
 JavaScript supports the following Logical operators (List of Logical operators):
 
-| Operators       | Description                           | Example / Result                      |
-| ----------------|---------------------------------------|---------------------------------------|
-| &&              | Logical AND                           | x && y; (True if both operands like x and y are true) |
-| &#124;&#124;    | Logical OR                            | x &#124;&#124; y; (True if either x or y is true)|
-| !               | Logical NOT                           | !x; (True if x is not true)           |
-| | | |
+| Operators    | Description | Example / Result                                      |
+| ------------ | ----------- | ----------------------------------------------------- |
+| &&           | Logical AND | x && y; (True if both operands like x and y are true) |
+| &#124;&#124; | Logical OR  | x &#124;&#124; y; (True if either x or y is true)     |
+| !            | Logical NOT | !x; (True if x is not true)                           |
+|              |             |                                                       |
 
 > **Syntax & Example**: `07.04.01.script.js`
+
 ```javascript
 // Logical operators - basic examples
 
@@ -1432,9 +1483,11 @@ var isSeniorCitizen = true;
 var isYoungGeneration = !isSeniorCitizen;
 console.log('isYoungGeneration: ', isYoungGeneration);
 ```
+
 <hr/>
 
 > **Syntax & Example**: `07.04.02.script.js`
+
 ```javascript
 // Logical operators - real world scenario/example
 
@@ -1458,8 +1511,10 @@ alert('isLoanRefused: ' + isLoanRefused);
 
 07.05. Comparison (or Relational) Operators
 ---------------------
+
 07.05. Comparison Operators
 ---------------------
+
 07.05. Relational Operators
 ---------------------
 
@@ -1469,19 +1524,20 @@ alert('isLoanRefused: ' + isLoanRefused);
 
 JavaScript supports the following Comparison (or Relational) operators (List of Comparison (or Relational) operators):
 
-| Operators | Description                           | Example / Result                      |
-| ----------|---------------------------------------|---------------------------------------|
-| ==  <br/>(Loose Equality Operator)      | Is equal to / identical               | x == y    (True if x is equal to y)     |
-| === <br/>(Strict Equality Operator)      | Eqaul/identical value and identical type| x === y (True if x is equal to y, and they are of the same type) |
-| !=        | Not equal to / different              | x != y (True if x is not equal to y)           |
-| !==       | Not identical    / different value or different type | x !== y )True if x is not equal to y, or they are not of the same type) |
-| <         | Less than                             | x < y (True if x is less than y)|
-| >         | Greater than                          | x > y    (True if x is greater than y)|
-| <=        | Less than or equal to                    | x <= y (True if x is less than or equal to y) |
-| >=        | Greater than or equal to                | x >= y (True if x is greater than or equal to y)|
-| | | |
+| Operators                           | Description                                          | Example / Result                                                        |
+| ----------------------------------- | ---------------------------------------------------- | ----------------------------------------------------------------------- |
+| ==  <br/>(Loose Equality Operator)  | Is equal to / identical                              | x == y    (True if x is equal to y)                                     |
+| === <br/>(Strict Equality Operator) | Eqaul/identical value and identical type             | x === y (True if x is equal to y, and they are of the same type)        |
+| !=                                  | Not equal to / different                             | x != y (True if x is not equal to y)                                    |
+| !==                                 | Not identical    / different value or different type | x !== y )True if x is not equal to y, or they are not of the same type) |
+| <                                   | Less than                                            | x < y (True if x is less than y)                                        |
+| >                                   | Greater than                                         | x > y    (True if x is greater than y)                                  |
+| <=                                  | Less than or equal to                                | x <= y (True if x is less than or equal to y)                           |
+| >=                                  | Greater than or equal to                             | x >= y (True if x is greater than or equal to y)                        |
+|                                     |                                                      |                                                                         |
 
 > **Syntax & Example**: `07.05.script.js`
+
 ```javascript
 // Comparison (or Relational) operators
 var num1 = 25;
@@ -1500,23 +1556,26 @@ alert(num1 >= num2);  // false
 
 07.06. Conditional (? or ternary) Operator
 ---------------------
+
 07.06. Conditional Operator
 ---------------------
+
 07.06. Ternary Operator
 ---------------------
 
 - Conditional Operator returns a value based on the condition, it is like if-else
-- The conditional (ternary) operator is the only JavaScript operator that takes three operands 
+- The conditional (ternary) operator is the only JavaScript operator that takes three operands
 - The conditional operator that assigns a value to a variable based on some condition
 - This operator is frequently used as a shortcut/short-hand method for the if statement
-- **Syntax**: variablename = (condition) ? TRUE value: FALSE value 
+- **Syntax**: variablename = (condition) ? TRUE value: FALSE value
 
-| Operators | Description                           | Example / Result                      |
-| ----------|---------------------------------------|---------------------------------------|
-| ?         | Ternary operator                      | var result = x < y ? 'x is smaller' : 'y is smaller' (short hand method to write if condition)  |
-| | | |
+| Operators | Description      | Example / Result                                                                               |
+| --------- | ---------------- | ---------------------------------------------------------------------------------------------- |
+| ?         | Ternary operator | var result = x < y ? 'x is smaller' : 'y is smaller' (short hand method to write if condition) |
+|           |                  |                                                                                                |
 
 > **Syntax & Example**: `07.06.script.js`
+
 ```javascript
 // Conditional (? or ternary) Operator
 
@@ -1542,13 +1601,14 @@ Variables can also have string values, `+ operator` can be used to concatenate s
 
 There are two operators which can also be used be for strings:
 
-| Operators | Description                           | Example / Result                      |
-| ----------|---------------------------------------|---------------------------------------|
-| +         | Concatenation                         | string1 + string2 (Concatenation of string1 and string2) |
-| +=        | Concatenation assignment              | string1 += string2 (Appends the str2 to the str1) |
-| | | |
+| Operators | Description              | Example / Result                                         |
+| --------- | ------------------------ | -------------------------------------------------------- |
+| +         | Concatenation            | string1 + string2 (Concatenation of string1 and string2) |
+| +=        | Concatenation assignment | string1 += string2 (Appends the str2 to the str1)        |
+|           |                          |                                                          |
 
 > **Syntax & Example**: `07.07.script.js`
+
 ```javascript
 // String Operators
 var message1 = "Hello";
@@ -1569,6 +1629,7 @@ alert(message1); // Outputs: Hello World!
 - If many operations have the same precedence (like addition and subtraction), they are `computed from left to right`
 
 > **Syntax & Example**: `07.08.script.js`
+
 ```javascript
 // Operator precedence
 var result1 = 10 + 2 * 5
@@ -1600,14 +1661,14 @@ Section 08. Functions
 - Wrapping up / making smaller chunks of statements / reusable codes together for readability or separation of concern/proper organization is functions – (Grouping of a repetitive task)
 - Functions (logical block of code) are one of the most important control structure in any programming language
 - In other languages, it might be called `MODULES, SUBROUTINES(SUB-ROUTINES)`
-- There are two steps to utilize function: 
+- There are two steps to utilize function:
   1. create/define a function with `function` keyword  
   2. call/invoke a function
 
 > **Note**: <br/>
 Best Practice - First Define function than call/envoke it!
 
-#### 08.01.01. Here are some advantages of using functions:
+#### 08.01.01. Here are some advantages of using functions
 
 - **Code reusability** - call a function several times
 - **Less coding** - makes our program compact, no need to write lines of code each time
@@ -1616,12 +1677,13 @@ Best Practice - First Define function than call/envoke it!
 
 #### 08.01.02. Function Definition / Function Declaration / Creating Function
 
-- The function declaration starts by using the `function keyword`, 
-- followed by a `unique function name`, 
-- a list of `parameters in parentheses` i.e. () (that might be empty), 
+- The function declaration starts by using the `function keyword`,
+- followed by a `unique function name`,
+- a list of `parameters in parentheses` i.e. () (that might be empty),
 - and a statement block surrounded by `curly braces { }`
 
 > **Syntax & Example**: `08.01.script.js`
+
 ```javascript
 //1. define / declare / create function
 
@@ -1638,6 +1700,7 @@ function showMessage () {
 - Defined function can be invoked/called/run from anywhere in the document, by typing `function name followed by a set of parentheses, like functionName()`
 
 > **Syntax & Example**: `08.01.script.js`
+
 ```javascript
 //2. invoke / call the function
 
@@ -1656,6 +1719,7 @@ Usually, Function name starts with:
 - "checkSomething" – check something and return a boolean, etc.
 
 Examples of function names:
+
 - getSum();
 - createFields();
 - calcAge();
@@ -1673,6 +1737,7 @@ Examples of function names:
 - Simple/Normal function which we use daily to perform some action/task
 
 > **Syntax & Example**: `08.02.01.script.js`
+
 ```javascript
 var name = 'Dinanath';
 
@@ -1694,6 +1759,7 @@ sayHello();
 - You can specify parameters when you define your function to accept input values at run time
 
 > **Syntax & Example**: `08.02.02.01.script.js`
+
 ```javascript
 // Parameterized function
 //1. define / declare / create function
@@ -1727,6 +1793,7 @@ calculateSum(100, 200);
 With ES6, now you can specify default values to the function parameters. This means that if no arguments are provided to the function when it is called these default parameters values will be used.
 
 > **Syntax & Example**: `08.02.02.02.script.js`
+
 ```javascript
 // Parameterized function with default parameters
 
@@ -1763,6 +1830,7 @@ calculateSum(100, 200);
 - The return statement usually placed as the last line of the function
 
 > **Syntax & Example**: `08.02.03.script.js`
+
 ```javascript
 // Return type function
 //1. define / declare / create function
@@ -1795,6 +1863,7 @@ The syntax that we've used before to create functions is called `function declar
   - Named function expression
 
 > **Syntax & Example**: `08.03.02.01.script.js`
+
 ```javascript
 // function declaration (Regular / normal function)
 function getSum1(num1, num2) {
@@ -1819,7 +1888,8 @@ var sum1 = getSum2;
 alert(sum1(100,200));
 ```
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```javascript
 // function expression - named
 var getSum2 = function getTotal(num1, num2) {
@@ -1842,6 +1912,7 @@ alert(sum1(5,10));
 - Declare and run the function at the same time
 
 > **Syntax & Example**: `08.03.03.script.js`
+
 ```javascript
 // Immediately invoked function expression (IIFE)
 (function () {
@@ -1857,7 +1928,8 @@ alert(sum1(5,10));
 08.04. String Methods and Concatenation
 ---------------------
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```javascript
 
 const firstName = 'Dinanath';
@@ -1935,6 +2007,7 @@ console.log(courses.split(','));
 
 08.05. Template String
 ---------------------
+
 08.05. Template Literals
 ---------------------
 
@@ -1946,7 +2019,8 @@ console.log(courses.split(','));
 
 - It is part of ES6 but compatible with all the modern browsers and its latest versions
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```javascript
 
 //old plain javascript approach
@@ -1991,6 +2065,7 @@ console.log(greetMessage4);
 
 Section 09. Loops
 =====================  
+
 Section 09. Loops and Iterations
 =====================
 
@@ -2001,7 +2076,7 @@ Section 09. Loops and Iterations
 - It is mostly used in array or object (to iterate through series)
 - Loops/iterations is an instruction repeat until a specific condition is reached
 
-### Different Types of Loops in JavaScript:
+### Different Types of Loops in JavaScript
 
 1. for loop
 2. while loop
@@ -2020,6 +2095,7 @@ Section 09. Loops and Iterations
 - For loop consists of 3 statements (), mostly `i = index` is used for loop initialization
 
 > **Syntax & Example**: `09.01.01.script.js`
+
 ```javascript
 // for loop
 
@@ -2042,6 +2118,7 @@ for (let i=1; i<=5; i++) {
 ### 09.01.01. The for loop - Reverse order
 
 > **Syntax & Example**: `09.01.02.script.js`
+
 ```javascript
 // for loop - reverse order
 
@@ -2055,6 +2132,7 @@ for (let i = 5; i >= 1; i--) {
 ### 09.01.02. The for loop - Find Even or Odd number
 
 > **Syntax & Example**: `09.01.03.script.js`
+
 ```javascript
 // for loop - to find out odd even number
 
@@ -2074,6 +2152,7 @@ for (let i = 1; i <= 10; i++) {
 - In For loop, a variable is part of a loop, but in While loop, we need to declare variable externally
 
 > **Syntax & Example**: `09.02.01.script.js`
+
 ```javascript
 // while loop
 
@@ -2093,6 +2172,7 @@ while (i <= 5) {
 
 09.03. The do while loop
 ---------------------
+
 09.03. The do...while loop
 ---------------------
 
@@ -2100,6 +2180,7 @@ while (i <= 5) {
 - The do...while loop will always be `executed at least once (before checking if the condition is true)`, even if the condition is false
 
 > **Syntax & Example**: `09.03.01.script.js`
+
 ```javascript
 // do...while loop
 
@@ -2121,6 +2202,7 @@ while (i <= 5);
 
 09.04. The for in loop
 ---------------------
+
 09.04. The for...in loop
 ---------------------
 
@@ -2129,6 +2211,7 @@ while (i <= 5);
 #### 09.04.01. The for...in Loop - array
 
 > **Syntax & Example**: `09.04.01.script.js`
+
 ```javascript
 // for...in loop
 
@@ -2150,6 +2233,7 @@ for (let color in arrColors) {
 #### 09.04.02. The for...in Loop - object
 
 > **Syntax & Example**: `09.04.02.script.js`
+
 ```javascript
 // for...in loop
 
@@ -2171,6 +2255,7 @@ for (emp in objEmployee) {
 #### 09.04.03. The for...in Loop - Inbuilt JavaScript objects
 
 > **Syntax & Example**: `09.04.03.script.js`
+
 ```javascript
 // for...in loop
 
@@ -2188,6 +2273,7 @@ for (props in window) {
 
 09.05. The for of loop
 ---------------------
+
 09.05. The for...of loop (ES6)
 ---------------------
 
@@ -2196,6 +2282,7 @@ for (props in window) {
 - The code inside the loop is executed for each element of the iterable object
 
 > **Syntax & Example**: `09.05.01.script.js`
+
 ```javascript
 // for...of loop
 
@@ -2228,6 +2315,7 @@ for (let letter of name) {
 - The `continue` statement tells the interpreter to immediately start the next iteration of the loop and skip the remaining code block
 
 > **Syntax & Example**: `09.06.01.script.js`
+
 ```javascript
 // break continue statement
 
@@ -2300,10 +2388,12 @@ for(let int = 0; int < 10; int++) {
 
 09.07. for each loop
 ---------------------
+
 09.07. for...each loop
 ---------------------
 
 > **Syntax & Example**: ``
+
 ```javascript
 
 let arrDays = ["Monday", "TuesDay", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
@@ -2316,6 +2406,7 @@ arrDays.forEach(function(day)){
 
 Section 10. Conditions
 =====================
+
 Section 10. Conditions - Control Flow
 =====================
 
@@ -2324,7 +2415,7 @@ Section 10. Conditions - Control Flow
 - It helps to perform different actions for different decisions
 - We can use conditional operator to check our condition: >, <, >=, <=, ==, !=, ===
 
-#### We can use the following conditional statements in JavaScript to make decisions:
+#### We can use the following conditional statements in JavaScript to make decisions
 
 1. If Statement
 2. If...else Statement
@@ -2333,6 +2424,7 @@ Section 10. Conditions - Control Flow
 
 10.01. The if statement
 ---------------------
+
 10.01. The if statement and comparison operators
 ---------------------
 
@@ -2346,6 +2438,7 @@ If conditional statements are used to evaluate some kind of condition and do som
 Use `if` to specify a block of code to be executed, `if a specified condition is true`
 
 > **Syntax & Example**: `10.01.01.script.js`
+
 ```javascript
 // if conditional statement
 
@@ -2392,6 +2485,7 @@ if(currentHours >=6 && currentHours < 12) {
 
 10.02. The if else statement
 ---------------------
+
 10.02. The if...else statement
 ---------------------
 
@@ -2404,6 +2498,7 @@ if(currentHours >=6 && currentHours < 12) {
 Use `else` to specify a block of code to be executed, `if the same condition is false`
 
 > **Syntax & Example**: `10.02.01.script.js`
+
 ```javascript
 // if...else conditional statement
 
@@ -2451,6 +2546,7 @@ if(currentHours < 12) {
 
 10.03. The if else if else statement
 ---------------------
+
 10.03. The if...else, if...else statement
 ---------------------
 
@@ -2461,6 +2557,7 @@ if(currentHours < 12) {
 Use `else if` to specify a new condition to test, `if the first condition is false`
 
 > **Syntax & Example**: `10.03.01.script.js`
+
 ```javascript
 // If...else if...else conditional statement
 
@@ -2513,6 +2610,7 @@ if(currentHours >=6 && currentHours< 12) {
 
 10.04. The switch case statement
 ---------------------
+
 10.04. The switch...case statement
 ---------------------
 
@@ -2524,6 +2622,7 @@ if(currentHours >=6 && currentHours< 12) {
 Use `switch` to specify many `alternative blocks of code to be executed`
 
 > **Syntax & Example**: `10.04.01.script.js`
+
 ```javascript
 // switch...case conditional statement
 
@@ -2630,7 +2729,7 @@ console.log(`Today is ${currentDay}!`);
 ```
 
 Section 11. Array
-===================== 
+=====================
 
 11.01. What is an Array?
 ---------------------
@@ -2646,7 +2745,8 @@ Section 11. Array
 #### Different ways to create/define an Array
 
 There are 3 main ways to construct an array:
-1. By array literal 
+
+1. By array literal
 2. By creating an instance of Array directly (using the new keyword)
 3. By using an Array constructor (using the new keyword)
 
@@ -2657,6 +2757,7 @@ There are 3 main ways to construct an array:
 - var myArray = [element0, element1, ..., elementN];
 
 > **Syntax & Example**: `11.02.01.script.js`
+
 ```javascript
 // create array with array literal ie. [] square bracket
 
@@ -2682,6 +2783,7 @@ console.log('Total Elements: ' + arrTechnologies.length);
 
 11.03. Create Array by creating an instance of array directly
 ---------------------
+
 11.03. Create Array by creating an instance of array directly (using `new` keyword)
 ---------------------
 
@@ -2689,6 +2791,7 @@ console.log('Total Elements: ' + arrTechnologies.length);
 - var myArray = new Array(); OR var myArray = Array();
 
 > **Syntax & Example**: `11.03.01.script.js`
+
 ```javascript
 // create array with new keyword
 
@@ -2731,6 +2834,7 @@ console.log(arrTechnologies); // show all elements
 
 11.04. Create Array by using an array constructor
 ---------------------
+
 11.04. Create Array by using an array constructor (using `new` keyword)
 ---------------------
 
@@ -2738,6 +2842,7 @@ console.log(arrTechnologies); // show all elements
 - var myArray = new Array(element0, element1, ..., elementN);
 
 > **Syntax & Example**: `11.04.01.script.js`
+
 ```javascript
 // create array with new keyword Array constructor passing parameter
 
@@ -2767,6 +2872,7 @@ console.log(arrJsFrameworks); // show all elements
 - myarray.length
 
 > **Syntax & Example**: `11.05.01.script.js`
+
 ```javascript
 // get/retrieve/find array length
 
@@ -2788,6 +2894,7 @@ console.log(arrJsFrameworks.length);
 
 11.06. Accessing Looping through an Array Elements
 ---------------------
+
 11.06. Loop through an Array Elements
 ---------------------
 
@@ -2799,6 +2906,7 @@ console.log(arrJsFrameworks.length);
 - myarray[indexNumber], myarray[0] // get first array element
 
 > **Syntax & Example**: `11.06.01.script.js`
+
 ```javascript
 // access/loop through array element
 
@@ -2837,6 +2945,7 @@ for (let i = 0; i < arrJsFrameworks.length; i++) {
 - myarray[indexNumber]='value', myarray[2]='value', myarray.push('value'), myarray.unshift('value')
 
 > **Syntax & Example**: `11.07.01.script.js`
+
 ```javascript
 // add/edit array element
 
@@ -2882,6 +2991,7 @@ console.log('arrColors.length: ' + arrColors.length);
 The `push() and pop() methods runs faster` than unshift() and shift(). Because push() and pop() methods add and remove elements at the end of an array, therefore, the elements do not move. unshift() and shift() add and remove elements at the beginning of the array that requires re-indexing/re-structuring of the whole array.
 
 > **Syntax & Example**: `11.08.01.script`
+
 ```javascript
 // remove array element from start and end
 
@@ -2908,7 +3018,8 @@ console.log('arrColors.length: ' + arrColors.length);
 11.09. Array properties and methods
 ---------------------
 
-> **Syntax & Example**: `` 
+> **Syntax & Example**: ``
+
 ```javascript
 
 // length
@@ -2956,29 +3067,31 @@ console.log(numberArray.find(40));
 ```
 
 Section 12. Objects
-===================== 
+=====================
 
 12.01. Real Life Objects
 ---------------------
+
 12.01. Object Properties and Method examples
 ---------------------
 
-- In real life almost `everything is an object`. 
+- In real life almost `everything is an object`.
   - For example: Human, Car, Building, Bike, Pen, Chair, Monitor, Keyboard, Vehicle, Mobile, Computer etc.
 - Let's have a look on some Objects with Properties and Methods:
 
-| Object        | Properties                              | Methods                            |
-|---------------|-----------------------------------------|------------------------------------|
-| Person        | Person.name = 'dinanath'; <br/> Person.weight = 65; <br/> Person.color = 'fair' | Person.walk(); <br/>  Person.talk();  <br/> Person.eat();   |
-| Bike          | Bike.brand = 'bajaj'; <br/> Bike.model = 'discover'; <br/> Bike.color = 'blue'; <br/> Bike.length = 60; <br/> Bike.height = 30; <br/>                                             | Bike.start(); <br/> Bike.break(); <br/> Bike.stop();      |
-| Watch         | Watch.type = 'analog'; <br/> Watch.price = 750; <br/>                           | Watch.showTime();  <br/> Watch.setAlarm();        |
-| | | |
+| Object | Properties                                                                                                                            | Methods                                                   |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
+| Person | Person.name = 'dinanath'; <br/> Person.weight = 65; <br/> Person.color = 'fair'                                                       | Person.walk(); <br/>  Person.talk();  <br/> Person.eat(); |
+| Bike   | Bike.brand = 'bajaj'; <br/> Bike.model = 'discover'; <br/> Bike.color = 'blue'; <br/> Bike.length = 60; <br/> Bike.height = 30; <br/> | Bike.start(); <br/> Bike.break(); <br/> Bike.stop();      |
+| Watch  | Watch.type = 'analog'; <br/> Watch.price = 750; <br/>                                                                                 | Watch.showTime();  <br/> Watch.setAlarm();                |
+|        |                                                                                                                                       |                                                           |
 
 > **Note**: <br/>
 As a practice think of any other object in your surrounding and list down its Properties and Methods
 
 12.02. What is an Object?
 ---------------------
+
 12.02. What are the Objects?
 ---------------------
 
@@ -2990,13 +3103,14 @@ As a practice think of any other object in your surrounding and list down its Pr
 - An object contains properties, defined as a `key-value pair` (Objects are a collection of `key-value pair`)
 - A property `key (name) is always a string`, but the value which it stores can be any data types, like strings, numbers, booleans, or complex data types like arrays, function and other objects
 - JavaScript object properties can be accessed through two methods:
-  1. .DOT notation: `object.firstName` 
+  1. .DOT notation: `object.firstName`
   2. []Bracket notation: `object['firstName']`
 
 ### Different ways to create/define an Object
 
 There are 3 main ways to construct an object:
-1. By object literal 
+
+1. By object literal
 2. By creating an `instance` of Object directly (using `new` keyword)
 3. By using an `Object constructor` (using `new` keyword)
 
@@ -3007,6 +3121,7 @@ There are 3 main ways to construct an object:
 - var MyObject = { property1: value1, property2: value2.....propertyN: valueN }  
 
 > **Syntax & Example**:
+
 ```javascript
 // create object with object literal
   
@@ -3068,6 +3183,7 @@ console.log('// ------------------------------');
 
 12.04. Creating an instance of Object directly
 ---------------------
+
 12.04. Creating an instance of object directly (using the new keyword)
 ---------------------
 
@@ -3075,6 +3191,7 @@ console.log('// ------------------------------');
 - var MyObject = new Object(); OR var MyObject = Object();
 
 > **Syntax & Example**:
+
 ```javascript
 // create object with new keyword
 
@@ -3140,13 +3257,15 @@ console.log('// ------------------------------');
 
 12.05. Object constructor
 ---------------------
+
 12.05. Object constructor (using the new keyword)
 ---------------------
 
-- In this method, create a function with arguments 
+- In this method, create a function with arguments
 - Each argument value can be assigned in the current object by using `this` keyword, `this` keyword refers to the `current object`
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```javascript
 // create an object with new keyword - Object constructor with function
 
@@ -3181,6 +3300,7 @@ console.log('// ------------------------------');
 
 12.06. Accessing objects properties
 ---------------------
+
 12.06. Looping through Objects properties
 ---------------------
 
@@ -3188,7 +3308,8 @@ console.log('// ------------------------------');
 - We can iterate through the `key-value pairs` of an object using the `for...in loop`
 - MyObject.propertyName; OR MyObject[propertyName]; OR MyObject['propertyName']
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```javascript
 // access/loop thourgh array element
 
@@ -3224,7 +3345,8 @@ console.log('// ------------------------------');
 > **Note**: <br/>
 The `delete` operator only removes an `object property or array element`. It does not work/does not affect variables or declared functions.
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```javascript
 // remove/delete Object's Properties
 
@@ -3248,6 +3370,7 @@ console.log(Person['domain']);
 ---------------------
 
 In JavaScript we have two categories of types:
+
 1. Value Types (Primitives = Basic type) - Primitives are copied by their value
 2. Reference Types (Objects = Complex type) - Objects are copied by their Reference/Location in memory
 
@@ -3263,16 +3386,17 @@ In JavaScript we have two categories of types:
 ### 2. Reference Types (Objects)
 
   1. Object
-  2. Function 
+  2. Function
   3. Array
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```
 ???
 
 ```
 
-12.09. The Window object 
+12.09. The Window object
 ---------------------
 
 - Window Object the global variable/global object `available in the browser environment`, represents the browser window in which the script is running
@@ -3282,7 +3406,8 @@ In JavaScript we have two categories of types:
 - The Browser Object Model (BOM) allows JavaScript to "communicate/talk to" the browser
 - In `Browser -> Inspect Element -> Console Panel` -> Type `Window`, check different properties and methods available
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```javascript
 
 // Methods
@@ -3351,7 +3476,8 @@ window.navigator.vendor;
 - The Math object allows to perform mathematical tasks
 - Math object provides several constants and methods to perform mathematical operation  (like `min, max, sqrt, pi, round, random`, etc)
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```javascript
 
 let pieValue = Math.PI;
@@ -3384,7 +3510,8 @@ console.log(Math.floor(Math.random() * 20 + 1)); // random number till 20 withou
 - Simply, the JavaScript date object can be used to get date, day, month and year
 - Date objects are created with `new Date()` - Date constructor can be used to create date object, It provides methods to get and set day, month, year, hour, minute and seconds
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```javascript
 
 const today = new Date();
@@ -3422,6 +3549,7 @@ Section 13. Events
 ---------------------
 
 In general, the events can be categorized into four main groups:
+
 1. Mouse events
 2. Keyboard events
 3. Form events
@@ -3432,7 +3560,7 @@ In general, the events can be categorized into four main groups:
 A mouse event is triggered when the user clicks some element, move the mouse pointer over an element, etc. Find here some of the important mouse events and their event handler:
 
 - **click** (`onclick` event handler)
-  - Occurs When the `mouse clicks on an element`, links, buttons etc. on a web page 
+  - Occurs When the `mouse clicks on an element`, links, buttons etc. on a web page
 - **contextmenu** (`oncontextmenu` event handler)
   - Occurs when a `user clicks the right mouse button` on an element to open a context menu
 - **mouseover / mouseout** (`onmouseover` &  `onmouseout` event handler)
@@ -3442,7 +3570,8 @@ A mouse event is triggered when the user clicks some element, move the mouse poi
 - **mousemove** (`onmousemove` event handler)
   - Occurs when the mouse pointer/cursor is moved
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```html
 <ol class="normalList">
   <li><strong>click</strong> (`onclick` event handler) <br/>
@@ -3467,6 +3596,7 @@ A mouse event is triggered when the user clicks some element, move the mouse poi
 <hr/>
 
 > **Syntax & Example**: `Change background color on mouse movement`
+
 ```js
 
 const button = document.querySelector('.some-button');
@@ -3483,7 +3613,7 @@ function someFunction(evt) {
 
 ```
 
-### 13.02.02. Keyboard events 
+### 13.02.02. Keyboard events
 
 A keyboard event is fired up when the user presses or release a key on the keyboard. Here're some of the important keyboard events and their event handler:
 
@@ -3493,7 +3623,8 @@ A keyboard event is fired up when the user presses or release a key on the keybo
   - Occurs when the user presses down a key on the keyboard that has a character value associated with it
   - Keys like Ctrl, Shift, Alt, Esc, Arrow keys, etc. will not generate a keypress event, but will generate a keydown and keyup event
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```html
 <label>Enter Name:</label> 
 
@@ -3505,7 +3636,8 @@ onkeypress="console.log('onkeypress Other than Ctrl, Shift, Alt, Esc, Arrow keys
 
 <hr/>
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```js
 
 const nameText = document.querySelector('inputNameText');
@@ -3531,7 +3663,8 @@ A form event is triggered when a form control/form fields (text fields/radio but
 - **submit** (`onsubmit` event handler)
   - Occurs only when the user submits a form on a web page
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```html
 <form action="" method="post" onsubmit="alert('Form data submitted to the server!');">
 
@@ -3567,6 +3700,7 @@ A form event is triggered when a form control/form fields (text fields/radio but
 <hr/>
 
 > **Syntax & Example**: `Form submit event`
+
 ```js
 
 const personalDataForm = document.querySelector('form');
@@ -3596,7 +3730,8 @@ Events are happening/triggering all over. Events do trigger even when the page h
 > **Note**: <br/>
 The unload event is not supported properly in most of the browsers.
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```html
 <body onload="window.alert('Page loaded successfully!');" onunload="window.alert('sure you want to leave this page?');">
 
@@ -3623,7 +3758,8 @@ The unload event is not supported properly in most of the browsers.
 
 #### 13.03.01. HTML attribute
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```javascript
 <h2 onclick="window.alert('HTML attribute onclick used here!')" style="color:#0000ff; cursor:pointer">    13.03.01. HTML attribute | Click Me!</h2>
 
@@ -3645,7 +3781,8 @@ This way should be avoided as it makes markup less readable and making it harder
 
 #### 13.03.02. DOM element properties
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```javascript
 <button id="messageButton1">Click here...</button>
 <button id="messageButton2">Click here...</button>
@@ -3669,7 +3806,8 @@ function fnShowMessage() {
 
 #### 13.03.03. Registering event listeners
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```javascript
 // myButton.addEventListener('click', someFunc, false);
 
@@ -3681,7 +3819,8 @@ document.querySelector('.clear-button').addEventLister('click', function() {
 > **Note**: <br/>
 This method is preferred in modern web pages. IE 6-8 do not support this method, there is an alternate for the `addEventListener` is `attachEvent` (myButton.attachEvent (‘onclick', someFunc);)
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```javascript
 
 ???
@@ -3706,16 +3845,17 @@ Section 14. DOM (Document Object Model)
 
 14.01. What is DOM?
 ---------------------
+
 14.01. What is the Document Object Model?
 ---------------------
 
 - DOM represents the whole HTML document, DOM is a structure of HTML web page where all tags are defined in a structured/structural way
 - The Document Object Model (DOM) is the model that describes how all elements in an HTML page (like input fields, images, paragraphs, headings, etc.), are related to the topmost structure: the document itself
-- DOM defines the logical structure of the documents and how they can be accessed and manipulated 
+- DOM defines the logical structure of the documents and how they can be accessed and manipulated
 - DOM is a W3C (World Wide Web Consortium) standard which defines a standard for accessing documents like programmers can build documents, navigate their structure, and add, modify, or delete elements and content
 - In DOM world always think in form/terms of `Nodes` (elements, its attributes, text, etc.)
 
-* Structural representation of HTML document (Tree of nodes/elements/tags)
+- Structural representation of HTML document (Tree of nodes/elements/tags)
 
 14.02. Node
 ---------------------
@@ -3724,7 +3864,8 @@ As we learned above, in DOM, all parts of the document (like elements, its attri
 
 There are different types of nodes like: `Elements, Attribute & Text Node`.
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```html
 
 <ul id="list"> --> Element & Attribute NODE
@@ -3735,7 +3876,7 @@ There are different types of nodes like: `Elements, Attribute & Text Node`.
 
 ```
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
 `In Browser Window -> Inspect Element (Developer Tools) -> Console: type following and check the output thoroughly`
 
 - `document` - outputs the entire document/current page
@@ -3763,7 +3904,8 @@ Let's learn some of the common ways of selecting the elements on a page and do s
 - `getElementById()` is the easiest and most common way to find/access an HTML element in the DOM tree
 - `getElementById()` method returns the element having the given id value
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```javascript
 // Selecting element with id 
 let mainHeadingElement = document.getElementById('mainHeadingText');
@@ -3798,7 +3940,8 @@ mainHeadingElement.style.backgroundColor = 'pink';
 - `getElementsByClassName()` method is used to select all the `elements having specific class names`
 - `getElementsByClassName()` method `returns an array of all elements` with given class names
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```javascript
 // Selecting elements with class
 let listItems = document.getElementsByClassName("list-item");
@@ -3828,7 +3971,8 @@ for(var listItem in listItems) {
 - Developer can also `select HTML elements by tag name` using the `getElementsByTagName()` method
 - `getElementsByTagName()` method `returns an array of all elements` with given tag name
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```javascript
 // Selecting all LI elements with tag name
 let liElements = document.getElementsByTagName('li');
@@ -3869,7 +4013,8 @@ for(var li in liElements) {
 - CSS selectors provide a very `powerful and efficient way` of selecting HTML elements in a document
 - `querySelectorAll()` method `returns an array` or list of all the elements that matches the specified selectors
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```javascript
 // Selecting all ul -> li elements
 let ulLiElement = document.querySelectorAll('ul li');
@@ -3885,7 +4030,7 @@ ulLiElement[ulLiElement.length - 1].style.color = 'red';
 ulLiElement[ulLiElement.length - 1].innerHTML = 'Dynamic text change at run time';
 ```
 
-### 14.03.05. `querySelector` 
+### 14.03.05. `querySelector`
 
 - selects the single ie first element
 
@@ -3901,16 +4046,19 @@ ulLiElement[ulLiElement.length - 1].innerHTML = 'Dynamic text change at run time
 Using JavaScript we can also apply CSS style on HTML elements to change the visual look and feel specification/presentation of HTML documents dynamically/at run time. We can apply/set almost all the CSS styles for the elements like fonts, colors, margins, padding, borders, alignments, background images, width and height, position, and so on.
 
 ### Naming Conventions of CSS Properties in JavaScript
+
 - CSS properties like `font-size`, `background-image`, `text-decoration`, etc. contain `hyphens (-)` in names
 - In JavaScript `hyphens (-)` is a reserved operator (a minus sign), so it is impossible to write an expression with `hyphens (-)`, like: elem.style.font-size = '10px';
 - In JavaScript the CSS property names with hyphens are converted to intercapitalized style word (camelCasingNaming)
 - So CSS property `font-size`, `background-color`,`border-left-style` becomes the DOM property `fontSize`, `borderLeftStyle` respectively and so on
 
 ### 14.04.01. Applying/Setting Inline Styles on Elements
+
 - In HTML inline styles are applied directly to the specific HTML element using the `style attribute`, eg. `<element style="color:red;">`
 - In JavaScript the `style property` is used to get or set the inline style of an element, eg. `elem.style.color = 'red';`
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```javascript
 // Selecting element with id 
 let mainHeadingElement = document.getElementById('mainHeadingText');
@@ -3923,11 +4071,13 @@ mainHeadingElement.style.border = '5px solid #999999';
 ```
 
 ### 14.04.02. Retrieving/Getting CSS Styles details from Elements
+
 - We can get the styles applied on the HTML elements using the `style property`
 - `style property` only returns the style rules set in the element's style attribute, not those applied through internal/embedded style sheets, or external style sheets
 - To get the values of all CSS properties that actually render an element we can use the `window.getComputedStyle()` method
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```javascript
 // Selecting element with id 
 let mainHeadingElement = document.getElementById('mainHeadingText');
@@ -3951,10 +4101,12 @@ console.log('internal style - border:',cssStyles.border);
 ```
 
 ### 14.04.03. Applying/Adding CSS Classes to Elements - className
+
 - We can also get or set CSS classes to the HTML elements using the `className property`
 - As `class` is a reserved word in JavaScript, it uses the `className` property to reference the value of the HTML class attribute
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```javascript
 // Selecting element with id 
 let mainHeadingElement = document.getElementById('mainHeadingText');
@@ -3967,10 +4119,12 @@ mainHeadingElement.className += ' border';
 ```
 
 ### 14.04.04. Applying/Adding CSS Classes to Elements - classList
+
 - Using `classList property` is much easier and better to get, set or remove CSS classes from an element
 - `classList property` is supported in all major browsers except Internet Explorer before version 10
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```javascript
 // Selecting element with id 
 let mainHeadingElement = document.getElementById('mainHeadingText');
@@ -4009,7 +4163,8 @@ if(mainHeadingElement.classList.contains('border')) {
 - The `setAttribute()` method is used to set an attribute on the specified element
 - If the attribute already present/exists on the element, the attribute value will be updated; else a new attribute is added with the specified name and value
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```javascript
 // Selecting element with id 
 let mainHeadingElement = document.getElementById('mainHeadingText');
@@ -4031,7 +4186,8 @@ linkTextElement.setAttribute('href','');
 - The `getAttribute()` method is used to get the current value of an attribute on the element
 - If the specified attribute does not present/exists on the element, it will return `null`
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```javascript
 // Selecting element with id 
 let mainHeadingElement = document.getElementById('mainHeadingText');
@@ -4053,7 +4209,8 @@ console.log('getAttrHref:', getAttrHref);
 
 - The `removeAttribute()` method is used to remove an attribute from the specified element
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```javascript
 // Selecting element with id 
 let mainHeadingElement = document.getElementById('mainHeadingText');
@@ -4075,9 +4232,11 @@ linkTextElement.removeAttribute('href');
 ```
 
 ### 14.05.04. Selecting document elements without selectors
+
 ### 14.05.04. Select HTMLCollection without selectors
 
-> **Syntax & Example**: 
+> **Syntax & Example**:
+
 ```javascript
 
 - document.forms
@@ -4102,13 +4261,14 @@ linkTextElement.removeAttribute('href');
 
 Section 15. What's Next Step?
 =====================
-Great Job! Thank You for looking into JavaScript for Beginners. I hope you enjoyed and learned a lot out of it. I think Now you have better understandings of how JavaScript works and functions. To learn more about JavaScript visit [Mozilla JavaScript Reference Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript). 
-- Your Next step could be looking into advanced topics of [HTML5](https://github.com/dinanathsj29/html5-semantic-tags), [CSS3] or [JavaScript]. 
+
+Great Job! Thank You for looking into JavaScript for Beginners. I hope you enjoyed and learned a lot out of it. I think Now you have better understandings of how JavaScript works and functions. To learn more about JavaScript visit [Mozilla JavaScript Reference Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
+
+- Your Next step could be looking into advanced topics of [HTML5](https://github.com/dinanathsj29/html5-semantic-tags), [CSS3] or [JavaScript].
 - For detailed view on JavaScript look into [Advanced JavaScript Tutorial], [JavaScript ES6 Tutorial](https://github.com/dinanathsj29/ES6-ECMAScript6-ECMAScript2015-tutorial) or [TypeScript Tutorials](https://github.com/dinanathsj29/typescript-tutorial).
-- You may move forward with any famous and popular JavaScript Frameworks or Libraries like jQuery.js, [Angular](https://github.com/dinanathsj29/angular7-step-by-step), React.js, NPM, Node.js, Vue.js etc. 
+- You may move forward with any famous and popular JavaScript Frameworks or Libraries like jQuery.js, [Angular](https://github.com/dinanathsj29/angular7-step-by-step), React.js, NPM, Node.js, Vue.js etc.
 
 Best of Luck! Happy Learning!
-
 
 <!--
 Local and Session Storage 
